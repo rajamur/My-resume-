@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 20px;
     padding: 0;
-    background-image: url('images.jpeg');
+    background-image: url('background-image.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: #333;
