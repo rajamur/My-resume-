@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 20px;
     padding: 0;
-    background-image: url('../My-resume-/images (1).jpeg');
+    background-image:
     background-size: cover;
     background-attachment: fixed;
     color: #333;
@@ -16,16 +16,42 @@ header {
     text-align: center;
 }
 
+
 section {
-    margin-bottom: 30px;
+    background-color: #f2f2f2;
+    margin: 20px;
     padding: 20px;
-    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+section:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02); /* Scale up on hover */
+}
+
+.profile-photo {
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+	transform: rotate(90deg);
+}
+
 
 .job,
 .degree {
+    border-left: 3px solid #333;
+    padding-left: 10px;
+}
+
+.secondary-school {
+    border-left: 3px solid #333;
+    padding-left: 10px;
+}
+
+.primary-school {
     border-left: 3px solid #333;
     padding-left: 10px;
 }
@@ -47,5 +73,26 @@ section {
 }
 
 .skills li:hover {
-    background: #ccc;
+    background: black;
+	color: #fff;
 }
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #555;
+}
+
+footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
