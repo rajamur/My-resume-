@@ -10,7 +10,10 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-image: url('4153480.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment:float;
     color: #fff;
     padding: 10px;
     text-align: center;
