@@ -9,6 +9,13 @@ body {
     color: #333;
 }
 
+body {
+            background-image: url('backgrounds.jpg');
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size:cover;
+}
+
 header {
     background-image: url('4153480.jpg');
 	background-repeat: no-repeat;
